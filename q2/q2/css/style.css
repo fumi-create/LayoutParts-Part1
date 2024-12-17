@@ -1,2 +1,16 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+.ul {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+ul li{
+  width: 200px;
+  background-color: #d2b48c;
+  padding: 10px;
+  outline: solid 10px #655;
+  border-radius: 13px;
+}

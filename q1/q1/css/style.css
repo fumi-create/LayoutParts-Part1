@@ -1,2 +1,84 @@
 @charset "UTF-8";
+
 /* 回答はここから */
+/*Q1-1 左右中央寄せ*/
+.white_1-1 {
+  background: #fff;
+  width: 200px;
+  display: inline-block;
+  padding: 20px 0;
+}
+
+.blue_1-1 {
+  text-align: center;
+}
+
+.text_1-1 {
+  display: inline-block;
+  background: #a4b3e9;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/*----------------------------------------------------------------------*/
+.white_1-2 {
+  background: #fff;
+  width: 200px;
+  padding: 20px 0;
+}
+
+.text_1-2 {
+  background: #a4b3e9;
+  width: 90px;
+  padding: 10px 0;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*Q1-2 上下左右中央寄せ*/
+.table_p {
+  display: table;
+}
+
+.table {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.text_1-3 {
+  background: #fff;
+  padding: 10px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+/*----------------------------------------------------------------------*/
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_1-4 {
+  background: #fff;
+  padding: 10px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+/*----------------------------------------------------------------------*/
+.position {
+  position: relative;
+}
+
+.text_1-5 {
+  background: #a4b3e9;
+  padding: 10px;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

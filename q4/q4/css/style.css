@@ -1,1 +1,53 @@
 @charset "UTF-8";
+
+.section1 {
+  display: flex;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.section2 {
+  display: flex;
+  text-align: center;
+}
+
+.fixed {
+  padding: 20px 0;
+}
+
+.variable {
+  padding: 20px 20px;
+  flex: 1;
+}
+
+.red {
+  background: #ff7b7b;
+  width: 300px;
+}
+
+.blue {
+  background: #7b86ff;
+}
+
+.yellow {
+  background: #fff27b;
+  width: 300px;
+}
+
+.green {
+  background: #7bff91;
+}
+
+.pink {
+  background: #ff7be2;
+  width: 400px;
+}
+
+.orange {
+  background: #ffc67b;
+  width: 400px;
+}
+
+.lightblue {
+  background: #7bf2ff;
+}
